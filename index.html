@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fonts.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header container">
         <div class="logo">
             <a href="#"><img src="./img/logo.png" alt="Keepsake"></a>
         </div>
@@ -21,7 +24,7 @@
                 <li class="main-navigation-item"><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <div class="favorites">
+        <div class="favorites button">
             <a href="#"><img src="./img/ico-favorite.png" alt="Favorites"></a>
         </div>
     </header>
@@ -41,7 +44,7 @@
 
         <section class="portfolio">
             <h2 class="h2 portfolio-h2">Our Awesome Works <span>--</span></h2>
-            <b class="portfolio-filter button">Filter Portfolio</b>
+            <a class="portfolio-filter button" href="#">Filter Portfolio</a>
             <ul class="portfolio-list">
                 <li class="portfolio-item">
                     <a href="#"><img src="./img/img-portfolio1.png" alt="project 1"></a>
@@ -76,9 +79,9 @@
         <!-- contact-us -->
 
         <section class="contact-us">
-            <h2 class="visuality-hidden">Contact us</h2>
+            <h2 class="visually-hidden">Contact us</h2>
             <b class="contact-us-title">would you love to work with us?</b>
-            <a class="button contact-us-button" href="#">Contact us</a>
+            <a class="button contact-us-button" href="#"><img src="./img/ico-contact-us.png" alt="Contact-us"> Contact us</a>
         </section>
 
         <!-- what-we-do -->
@@ -126,13 +129,13 @@
         <!-- jornal -->
 
         <section class="journal">
-            <h2 class="h2 jornal-h2">from the journal <span>--</span></h2>
-            <p class="jornal-description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+            <h2 class="h2 journal-h2">from the journal <span>--</span></h2>
+            <p class="journal-description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                 ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
             <ul class="journal-list">
                 <li class="journal-item">
                     <img src="./img/img-article1.png" alt="article 1">
-                    <p class="date">Oct 13, 2014 / ıdentity</p>
+                    <p class="journal-date">Oct 13, 2014 / ıdentity</p>
                     <a href="#">
                         <h3 class="h3 journal-item-h3">Sollicitudin Tortor Inceptos</h3>
                     </a>
@@ -141,7 +144,7 @@
                 </li>
                 <li class="journal-item">
                     <img src="./img/img-article2.png" alt="article 2">
-                    <p class="date">Oct 23, 2014 / Brandıng</p>
+                    <p class="journal-date">Oct 23, 2014 / Brandıng</p>
                     <a href="#">
                         <h3 class="h3 journal-item-h3">Amet Inceptos Fringilla Fusce</h3>
                     </a>
@@ -150,7 +153,7 @@
                 </li>
                 <li class="journal-item">
                     <img src="./img/img-article3.png" alt="article 3">
-                    <p class="date">sep 19, 2014 / ıdentity</p>
+                    <p class="journal-date">sep 19, 2014 / ıdentity</p>
                     <a href="#">
                         <h3 class="h3 journal-item-h3">Cursus Malesuada Justo</h3>
                     </a>
@@ -159,7 +162,7 @@
                 </li>
                 <li class="journal-item">
                     <img src="./img/img-article4.png" alt="article 4">
-                    <p class="date">sep 27, 2014 / Brandıng</p>
+                    <p class="journal-date">sep 27, 2014 / Brandıng</p>
                     <a href="#">
                         <h3 class="h3 journal-item-h3">Ornare Cursus Bibendum Purus</h3>
                     </a>
@@ -169,6 +172,7 @@
             </ul>
         </section>
     </main>
+    
     <footer class="footer">
         <p class="copyright">© 2014 Keepsake. All rights reserved. Theme by elemis.</p>
         <ul class="socials">
