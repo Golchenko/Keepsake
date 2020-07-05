@@ -29,6 +29,7 @@ h2 {
     font-weight: 400;
     line-height: 22px;
     text-transform: uppercase;
+    letter-spacing: 2.1px;
     margin: 0;
     padding: 0;
 }
@@ -54,6 +55,15 @@ a {
     line-height: 22px;
     text-decoration: none;
     color: #4d4d4d;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.specialization {
+    margin: 0;
+    padding: 0;
 }
 
 .favorites {
@@ -94,7 +104,7 @@ a {
 .about {
     width: 100%;
     background-color: #f1f4f5;
-    padding: 40px 0 50px 0;
+    padding: 40px 0 65px 0;
 }
 
 .button {
@@ -113,7 +123,8 @@ a {
 .portfolio-h2 {
     margin: 0;
     padding: 0;
-    margin: 14px 0 12px 0;
+    letter-spacing: 2.1px;
+    padding-top: 10px;
 }
 
 .portfolio-filter {
@@ -121,13 +132,13 @@ a {
     padding: 0;
     line-height: 23.1px;
     letter-spacing: 1.14px;
-    padding: 15px;
+    padding: 10px 15px;
 }
 
 .portfolio-top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 .portfolio-list {
@@ -158,12 +169,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 65px;
+
 }
 
 .contact-us-button {
     margin: 0;
     padding: 0;
-    padding: 13px;
+    padding: 13px 18px;
     margin-top: 15px;
 }
 
@@ -183,26 +196,34 @@ a {
     letter-spacing: 2.8px;
     margin: 0;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .skills {
     padding: 0 15px;
-    margin-top: 65px;
+    margin-bottom: 80px;
+
 }
 
 .skills-h2 {
     margin: 0;
     padding: 0;
+    margin-bottom: 12px;
+}
+
+.skills-h3 {
+    margin: 25px 0 19px
 }
 
 .skills-description {
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
+    letter-spacing: 0.3px;
     margin: 0;
     padding: 0;
-    margin-top: 20px;
+    margin-bottom: 45px;
+
 }
 
 .skills-list {
@@ -211,7 +232,6 @@ a {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    margin-top: 45px;
 }
 
 .skills-item {
@@ -237,14 +257,13 @@ a {
     padding-top: 30px;
 }
 
-.journal {
-    margin-top: 80px;
+.journal-h2 {
+    margin-bottom: 15px;
 }
 
 .journal-description {
     margin: 0;
     padding: 0;
-    margin-top: 20px;
 }
 
 .journal-list {
@@ -282,9 +301,9 @@ a {
 .h3 {
     color: #4d4d4d;
     font-family: 'Bebas Neue Bold';
-    font-size: 21px;
+    font-size: 19px;
     text-transform: uppercase;
-    letter-spacing: 2.1px;
+    letter-spacing: 1.52px;
 }
 
 .journal-item-description {
@@ -295,7 +314,8 @@ a {
 }
 
 .journal-item-h3 {
-    margin-top: 15px;
+    margin:10px 0 15px;
+    letter-spacing: 2.1px;
 }
 
 .footer {
@@ -305,7 +325,6 @@ a {
     align-items: center;
     padding: 65px 0;
     margin-top: 145px;
-    
 }
 
 .copyright {
