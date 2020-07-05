@@ -29,26 +29,25 @@ h2 {
     font-weight: 400;
     line-height: 22px;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
 }
 
 h2 span {
     color: #ef5f60;
     letter-spacing: 2.1px;
 }
+
 a {
     text-decoration: none;
 }
 
-.main-navigation-list {
+.site-navigation-list {
     list-style: none;
     text-align: right;
 }
 
-.main-navigation-item {
-    display: inline;
-}
-
-.main-navigation-item a {
+.site-navigation-item a {
     font-family: "Bebas Neue Bold";
     font-size: 16px;
     font-weight: 400;
@@ -58,8 +57,10 @@ a {
 }
 
 .favorites {
+    display: block;
     width: 36px;
     height: 36px;
+    margin-top: 5px;
 }
 
 .button {
@@ -70,10 +71,30 @@ a {
     padding: 13px 12px;
 }
 
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+
+.site-navigation {
+    display: flex;
+}
+
+.site-navigation-list {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-right: 40px;
+    padding: 12px 0 11px;
+}
+
 .about {
     width: 100%;
-    height: 205px;
     background-color: #f1f4f5;
+    padding: 40px 0 50px 0;
 }
 
 .button {
@@ -85,18 +106,41 @@ a {
     text-decoration: none;
 }
 
+.portfolio {
+    margin-top: 70px;
+}
+
+.portfolio-h2 {
+    margin: 0;
+    padding: 0;
+    margin: 14px 0 12px 0;
+}
+
 .portfolio-filter {
+    margin: 0;
+    padding: 0;
     line-height: 23.1px;
     letter-spacing: 1.14px;
+    padding: 15px;
+}
+
+.portfolio-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
 }
 
 .portfolio-list {
-    height: auto;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
+}
+
+.portfolio-item {
+    margin-bottom: 10px;
 }
 
 .visually-hidden {
@@ -110,6 +154,25 @@ a {
     overflow: hidden;
 }
 
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-button {
+    margin: 0;
+    padding: 0;
+    padding: 13px;
+    margin-top: 15px;
+}
+
+.letter {
+    margin: 0;
+    padding: 0;
+    padding-right: 5px;
+}
+
 .contact-us-title {
     color: #4d4d4d;
     font-family: 'Bebas Neue Book';
@@ -118,77 +181,143 @@ a {
     line-height: 40px;
     text-transform: uppercase;
     letter-spacing: 2.8px;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.skills {
+    padding: 0 15px;
+    margin-top: 65px;
+}
+
+.skills-h2 {
+    margin: 0;
+    padding: 0;
 }
 
 .skills-description {
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
 }
 
 .skills-list {
     list-style: none;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-top: 45px;
 }
 
 .skills-item {
     text-align: center;
 }
 
+.skills-item-description {
+    width: 250px;
+    line-height: 25px;
+}
+
+.skills-item-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50px;
+    background: #f1f4f5;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.skills-icon {
+    padding-top: 30px;
+}
+
+.journal {
+    margin-top: 80px;
+}
+
+.journal-description {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
 .journal-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .journal-item {
     width: 558px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
 
-.journal-item img {
-    float: left;
+.journal-img {
+    height: 180px;
+    width: 180px;
 }
 
 .journal-date {
-color: #c3c3c3;
-font-family: 'Bebas Neue', arial, sans-serif;
-font-size: 17px;
-font-weight: 400;
-line-height: 60px;
-text-transform: uppercase;
-letter-spacing: 1.36px;
+    color: #c3c3c3;
+    font-family: 'Bebas Neue', arial, sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1.36px;
+    margin: 0;
+    padding: 0;
 }
 
 .h3 {
-color: #4d4d4d;
-font-family: 'Bebas Neue Bold';
-font-size: 21px;
-font-weight: 400;
-line-height: 22px;
-text-transform: uppercase;
-letter-spacing: 2.1px;
+    color: #4d4d4d;
+    font-family: 'Bebas Neue Bold';
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
 }
 
 .journal-item-description {
+    width: 353px;
     line-height: 26px;
+    letter-spacing: 0.3px;
+    margin: 0;
+}
+
+.journal-item-h3 {
+    margin-top: 15px;
 }
 
 .footer {
     background-color: #2d2d30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 0;
+    margin-top: 145px;
+    
 }
 
 .copyright {
-    text-align: center;
-    padding-top: 70px;
-}
-.socials {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 65px;
     margin: 0;
 }
 
+.socials {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 178px;
+    margin-top: 25px;
+}

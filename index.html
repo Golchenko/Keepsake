@@ -12,45 +12,52 @@
 
 <body>
     <header class="header container">
-        <div class="logo">
-            <a href="#"><img src="./img/logo.png" alt="Keepsake"></a>
-        </div>
-        <nav class="main-navigation">
-            <ul class="main-navigation-list">
-                <li class="main-navigation-item"><a href="#">Home</a></li>
-                <li class="main-navigation-item"><a href="#">About us</a></li>
-                <li class="main-navigation-item"><a href="#">Our works</a></li>
-                <li class="main-navigation-item"><a href="#">Journal</a></li>
-                <li class="main-navigation-item"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="favorites button">
-            <a href="#"><img src="./img/ico-favorite.png" alt="Favorites"></a>
+        <div class="main-navigation">
+            <a class="logo" href="#">
+                <img src="./img/logo.png" alt="Keepsake"></a>
+            <nav class="site-navigation">
+                <ul class="site-navigation-list">
+                    <li class="site-navigation-item"><a href="#">Home</a></li>
+                    <li class="site-navigation-item"><a href="#">About us</a></li>
+                    <li class="site-navigation-item"><a href="#">Our works</a></li>
+                    <li class="site-navigation-item"><a href="#">Journal</a></li>
+                    <li class="site-navigation-item"><a href="#">Contact</a></li>
+                </ul>
+                <a class="favorites button" href="#">
+                    <img src="./img/ico-favorite.png" alt="Favorites"></a>
+            </nav>
         </div>
     </header>
 
 
-    <main class="container">
+    <main>
 
         <!-- about-us -->
 
         <section class="about">
-            <h1 class="h1">We’re Keepsake, a digital & branding agency</h1>
-            <p class="specialization">Specializing in web design, poster, motion video, based in London. We love to turn
-                ideas into beautiful things.</p>
+            <div class="container">
+                <h1 class="h1">We’re Keepsake, a digital & branding agency</h1>
+                <p class="specialization">Specializing in web design, poster, motion video, based in London. We love to
+                    turn
+                    ideas into beautiful things.</p>
+            </div>
         </section>
 
         <!-- our-works -->
 
-        <section class="portfolio">
-            <h2 class="h2 portfolio-h2">Our Awesome Works <span>--</span></h2>
-            <a class="portfolio-filter button" href="#">Filter Portfolio</a>
+        <section class="portfolio container">
+            <div class="portfolio-top">
+                <a href="#">
+                    <h2 class="h2 portfolio-h2">Our Awesome Works <span>--</span></h2>
+                </a>
+                <a class="portfolio-filter button" href="#">Filter Portfolio</a>
+            </div>
             <ul class="portfolio-list">
                 <li class="portfolio-item">
                     <a href="#"><img src="./img/img-portfolio1.png" alt="project 1"></a>
                 </li>
                 <li class="portfolio-item">
-                    <a href="#"><img src="./img/img-portfolio2.png" alt="project 2"></a>
+                    <a class="link" href="#"><img src="./img/img-portfolio2.png" alt="project 2"></a>
                 </li>
                 <li class="portfolio-item">
                     <a href="#"><img src="./img/img-portfolio3.png" alt="project 3"></a>
@@ -78,47 +85,56 @@
 
         <!-- contact-us -->
 
-        <section class="contact-us">
+        <section class="contact-us container">
             <h2 class="visually-hidden">Contact us</h2>
-            <b class="contact-us-title">would you love to work with us?</b>
-            <a class="button contact-us-button" href="#"><img src="./img/ico-contact-us.png" alt="Contact-us"> Contact us</a>
+            <p class="contact-us-title">would you love to work with us?</p>
+            <a class="button contact-us-button" href="#">
+                <img class="letter" src="./img/ico-contact-us.png" alt="Contact-us"> Contact us</a>
         </section>
 
         <!-- what-we-do -->
 
-        <section class="skills">
+        <section class="skills container">
             <h2 class="h2 skills-h2">what do we do <span>--</span></h2>
             <p class="skills-description">Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo
                 risus, porta ac consectetur ac, vestibulum at eros.</p>
             <ul class="skills-list">
                 <li class="skills-item">
-                    <img class="skills-icon" src="./img/ico-responsive.png" alt="Web design">
-                    <a href="#">
-                        <h3 class="h3 skills-h3">Web Design</h3>
+                    <div class="skills-item-img">
+                        <img class="skills-icon" src="./img/ico-responsive.png" alt="Web design">
+                        <a href="#">
+                    </div>
+                    <h3 class="h3 skills-h3">Web Design</h3>
                     </a>
                     <p class="skills-item-description">Donec elit non mi porta gravida eureget metus. Aenean eu leo
                         quam. Pellentesque ornare sem por quam venenatis vestibulum.</p>
                 </li>
                 <li class="skills-item">
-                    <img class="skills-icon" src="./img/ico-tv.png" alt="Motion video">
-                    <a href="#">
-                        <h3 class="h3 skills-h3">Motion video</h3>
+                    <div class="skills-item-img">
+                        <img class="skills-icon" src="./img/ico-tv.png" alt="Motion video">
+                        <a href="#">
+                    </div>
+                    <h3 class="h3 skills-h3">Motion video</h3>
                     </a>
                     <p class="skills-item-description">Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id
                         nibh ultricies vehicula ut id elit. Sed posuere consectetur.</p>
                 </li>
                 <li class="skills-item">
-                    <img class="skills-icon" src="./img/ico-print.png" alt="Web design">
-                    <a href="#">
-                        <h3 class="h3 skills-h3">Print design</h3>
+                    <div class="skills-item-img">
+                        <img class="skills-icon" src="./img/ico-print.png" alt="Web design">
+                        <a href="#">
+                    </div>
+                    <h3 class="h3 skills-h3">Print design</h3>
                     </a>
                     <p class="skills-item-description">Maecenas sed diam eget risus varius blandit amet non magna.
                         Nullam id dolor id nibh ultricies vehiculaelit praesent commodo.
                 </li>
                 <li class="skills-item">
-                    <img class="skills-icon" src="./img/ico-love.png" alt="Illustration">
-                    <a href="#">
-                        <h3 class="h3 skills-h3">Web Design</h3>
+                    <div class="skills-item-img">
+                        <img class="skills-icon" src="./img/ico-love.png" alt="Illustration">
+                        <a href="#">
+                    </div>
+                    <h3 class="h3 skills-h3">Web Design</h3>
                     </a>
                     <p class="skills-item-description">Cum sociis natoque penatibus et dis parturient montes, nascetur
                         ridiculus mus. Morbi leo risus, porta ac consectetur ac at.</p>
@@ -128,51 +144,75 @@
 
         <!-- jornal -->
 
-        <section class="journal">
+        <section class="journal container">
             <h2 class="h2 journal-h2">from the journal <span>--</span></h2>
             <p class="journal-description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                 ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
             <ul class="journal-list">
                 <li class="journal-item">
-                    <img src="./img/img-article1.png" alt="article 1">
-                    <p class="journal-date">Oct 13, 2014 / ıdentity</p>
-                    <a href="#">
-                        <h3 class="h3 journal-item-h3">Sollicitudin Tortor Inceptos</h3>
-                    </a>
-                    <p class="journal-item-description">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus
-                        et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.</p>
+                    <div class="journal-img">
+                        <img src="./img/img-article1.png" alt="article 1">
+                    </div>
+                    <div class="journal-content">
+                        <p class="journal-date">Oct 13, 2014 / ıdentity</p>
+                        <a href="#">
+                            <h3 class="h3 journal-item-h3">Sollicitudin Tortor Inceptos</h3>
+                        </a>
+                        <p class="journal-item-description">Maecenas faucibus mollis interdum. Cum sociis natoque
+                            penatibus
+                            et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.
+                        </p>
+                    </div>
                 </li>
                 <li class="journal-item">
-                    <img src="./img/img-article2.png" alt="article 2">
-                    <p class="journal-date">Oct 23, 2014 / Brandıng</p>
-                    <a href="#">
-                        <h3 class="h3 journal-item-h3">Amet Inceptos Fringilla Fusce</h3>
-                    </a>
-                    <p class="journal-item-description">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus
-                        et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.</p>
+                    <div class="journal-img">
+                        <img src="./img/img-article2.png" alt="article 2">
+                    </div>
+                    <div class="journal-content">
+                        <p class="journal-date">Oct 23, 2014 / Brandıng</p>
+                        <a href="#">
+                            <h3 class="h3 journal-item-h3">Amet Inceptos Fringilla Fusce</h3>
+                        </a>
+                        <p class="journal-item-description">Maecenas faucibus mollis interdum. Cum sociis natoque
+                            penatibus
+                            et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.
+                        </p>
+                    </div>
                 </li>
                 <li class="journal-item">
-                    <img src="./img/img-article3.png" alt="article 3">
-                    <p class="journal-date">sep 19, 2014 / ıdentity</p>
-                    <a href="#">
-                        <h3 class="h3 journal-item-h3">Cursus Malesuada Justo</h3>
-                    </a>
-                    <p class="journal-item-description">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus
-                        et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.</p>
+                    <div class="journal-img">
+                        <img src="./img/img-article3.png" alt="article 3">
+                    </div>
+                    <div class="journal-content">
+                        <p class="journal-date">sep 19, 2014 / ıdentity</p>
+                        <a href="#">
+                            <h3 class="h3 journal-item-h3">Cursus Malesuada Justo</h3>
+                        </a>
+                        <p class="journal-item-description">Maecenas faucibus mollis interdum. Cum sociis natoque
+                            penatibus
+                            et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.
+                        </p>
+                    </div>
                 </li>
                 <li class="journal-item">
-                    <img src="./img/img-article4.png" alt="article 4">
-                    <p class="journal-date">sep 27, 2014 / Brandıng</p>
-                    <a href="#">
-                        <h3 class="h3 journal-item-h3">Ornare Cursus Bibendum Purus</h3>
-                    </a>
-                    <p class="journal-item-description">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus
-                        et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.</p>
+                    <div class="journal-img">
+                        <img src="./img/img-article4.png" alt="article 4">
+                    </div>
+                    <div class="journal-content">
+                        <p class="journal-date">sep 27, 2014 / Brandıng</p>
+                        <a href="#">
+                            <h3 class="h3 journal-item-h3">Ornare Cursus Bibendum Purus</h3>
+                        </a>
+                        <p class="journal-item-description">Maecenas faucibus mollis interdum. Cum sociis natoque
+                            penatibus
+                            et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.
+                        </p>
+                    </div>
                 </li>
             </ul>
         </section>
     </main>
-    
+
     <footer class="footer">
         <p class="copyright">© 2014 Keepsake. All rights reserved. Theme by elemis.</p>
         <ul class="socials">
